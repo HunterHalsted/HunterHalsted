@@ -10,4 +10,11 @@ main {
   width: 50%;
   height: 500px
   background-color: #ffffff;
+  float: left;
+}
+aside {
+  width: 50%;
+  height: 500px
+  background-color: #ffffff;
+  float: right;
 }
