@@ -32,11 +32,17 @@ body {
   overflow: hidden;
 }
 
-.main-graphic img {
-  width: 250px;          /* adjust size as needed */
-  border-radius: 15px;   /* rounded corners */
-  transition: 0.3s ease; /* smooth fade */
-  cursor: pointer;
+.css-rollover {
+  width: 250px;
+  height: 250px;
+  background-image: url("images/free-nature-images.jpg");
+  background-size: cover;
+  border-radius: 15px;
+  transition: 0.3s ease;
+}
+
+.css-rollover:hover {
+  background-image: url("images/something1.jpg");
 }
 
 .site-header {
@@ -215,5 +221,6 @@ footer p {
     font-size: 1.1rem;
   }
 }
+
 
 
